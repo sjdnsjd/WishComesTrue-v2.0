@@ -1,0 +1,16 @@
+/* compiled by scssphp v0.0.12 on Thu, 24 Dec 2020 13:29:43 +0000 (0.0012s) */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 154px; }
+  .footer__top, .footer__bottom {
+    width: 100%;
+    color: black; }
+  .footer__top {
+    background: #ecf7f5;
+    height: 86px; }
+  .footer__bottom--copyright {
+    font-size: 12px;
+    padding-top: 6px; }

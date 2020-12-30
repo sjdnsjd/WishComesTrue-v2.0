@@ -1,0 +1,72 @@
+/* compiled by scssphp v0.0.12 on Fri, 11 Dec 2020 09:30:46 +0000 (0.0034s) */
+
+@-webkit-keyframes wiggle {
+  0% {
+    margin-left: 0px; }
+
+  50% {
+    margin-left: 318px; }
+
+  100% {
+    margin-left: 0px; } }
+
+@-moz-keyframes wiggle {
+  0% {
+    margin-left: 0px; }
+
+  50% {
+    margin-left: 318px; }
+
+  100% {
+    margin-left: 0px; } }
+
+@-o-keyframes wiggle {
+  0% {
+    margin-left: 0px; }
+
+  50% {
+    margin-left: 318px; }
+
+  100% {
+    margin-left: 0px; } }
+
+@keyframes wiggle {
+  0% {
+    margin-left: 0px; }
+
+  50% {
+    margin-left: 318px; }
+
+  100% {
+    margin-left: 0px; } }
+
+.loader {
+  color: #89c7e7;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  position: relative; }
+  .loader__message {
+    text-shadow: 10px 10px 3px rgba(196, 235, 241, 0.5); }
+  .loader__bar {
+    width: 400px;
+    height: 20px;
+    background: rgba(255, 255, 194, 0.7);
+    border: 2px solid #ffffc2;
+    border-radius: 50px;
+    margin: 40px auto;
+    box-shadow: inset 2px 2px 5px 0px rgba(255, 211, 1, 0.8); }
+    .loader__bar--wiggle {
+      width: 80px;
+      height: 18px;
+      border: 1px solid #ffd301;
+      background: rgba(255, 255, 194, 0.5);
+      border-radius: 50px;
+      margin-left: 0px;
+      background: #ffffc2;
+      background: -moz-linear-gradient(top, #ffffc2 0%, #fff684 50%, #ffd301 100%);
+      background: -webkit-linear-gradient(top, #ffffc2 0%, #fff684 50%, #ffd301 100%);
+      background: linear-gradient(to bottom, #ffffc2 0%, #fff684 50%, #ffd301 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffc2', endColorstr='#ffd301', GradientType=0);
+      transition: margin-left 2s;
+      animation: wiggle 5s ease-in-out infinite; }
