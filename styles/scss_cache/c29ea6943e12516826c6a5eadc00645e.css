@@ -1,16 +1,81 @@
-/* compiled by scssphp v0.0.12 on Thu, 24 Dec 2020 13:29:43 +0000 (0.0012s) */
+/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 15:53:11 +0000 (0.0046s) */
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  height: 154px; }
+  height: 154px;
+  background-color: #ecf7f5; }
+  .footer__social-media--text {
+    font-size: 20px;
+    text-align: right;
+    margin: auto; }
+    .footer__social-media--button {
+      font-size: 20px;
+      align-self: center; }
+      .footer__social-media--button a {
+        transition: color 0.15s ease-in-out;
+        color: #fa7950;
+        margin: auto;
+        top: 4px;
+        position: relative; }
+        .footer__social-media--button a:hover {
+          color: #ffd94d; }
+      .footer__social-media--button .contact-us {
+        background-color: #fa7950;
+        height: 36px;
+        width: 110px;
+        border: 0;
+        border-radius: 50px;
+        margin: auto;
+        color: #fff;
+        font-size: small;
+        padding: 0;
+        background: linear-gradient(to right, #ffd94d, #ffd94d 50%, #fa7950 50%);
+        background-position: 100%;
+        background-size: 200% 100%;
+        transition: background-position 425ms ease; }
+        .footer__social-media--button .contact-us:hover {
+          background-color: #ff9d80;
+          background-position: 0 100%; }
   .footer__top, .footer__bottom {
     width: 100%;
     color: black; }
   .footer__top {
-    background: #ecf7f5;
     height: 86px; }
-  .footer__bottom--copyright {
-    font-size: 12px;
-    padding-top: 6px; }
+  .footer__bottom {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10px; }
+    .footer__bottom--copyright {
+      font-size: 12px;
+      padding-top: 6px; }
+
+.wrapper {
+  font-size: 20px; }
+
+.item {
+  position: relative;
+  text-align: right; }
+
+.check-out {
+  background-color: transparent;
+  border: 0;
+  padding: 15px;
+  border-radius: 3px;
+  transition: background 0.5s ease; }
+
+.check-out:hover {
+  font-weight: normal; }
+  .check-out:hover .arrow1 {
+    animation: slide1 1s ease-in-out infinite; }
+
+.arrow1 {
+  margin-left: 9px; }
+
+@keyframes slide1 {
+  0%, 100% {
+    transform: translate(0, 0); }
+
+  50% {
+    transform: translate(10px, 0); } }

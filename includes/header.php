@@ -31,8 +31,8 @@
         </div>
       </div>
     </div>
+    <div class="header__container--line"></div>
   </div>
-
 </body>
 
 </html>

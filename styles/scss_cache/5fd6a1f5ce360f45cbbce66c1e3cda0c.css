@@ -1,15 +1,20 @@
-/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 12:25:20 +0000 (0.001s) */
+/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 13:59:31 +0000 (0.0009s) */
 
 .header {
   height: 357px; }
   .header__container {
     height: 100%; }
+    .header__container--line {
+      height: 16px;
+      width: 100%;
+      background-color: #fc7650;
+      margin: 10px; }
   .header__logo--img {
     height: 100%; }
   .header__login {
     height: 76px; }
     .header__login--button {
-      background-color: #fc7650;
+      background-color: #fa7950;
       height: 51px;
       width: 258px;
       border: 0;

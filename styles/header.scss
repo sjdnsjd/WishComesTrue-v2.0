@@ -3,6 +3,12 @@
 
   &__container{
     height: 100%;
+    &--line {
+      height: 16px;
+      width: 100%;
+      background-color: #FC7650;
+      margin: 10px;
+    }
   }
   &__logo {
     &--img{
@@ -12,7 +18,7 @@
   &__login{
     height: 76px;
     &--button{
-      background-color: #fc7650;
+      background-color: #Fa7950;
       height: 51px;
       width: 258px;
       border: 0;
@@ -29,5 +35,6 @@
       border-radius: 50%;
       text-align: center;
     }
+    
   }
 }

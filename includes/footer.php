@@ -5,30 +5,31 @@
 </head>
 <!-- Footer -->
 <footer class="footer">
-  <footer class="footer__top">
-    <div class="container footer__container" style="display: block">
-      <div class="row">
-        <div class="footer__top col-12">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <h4 class="footer__org-name">Wish Comes True HK</h4>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fas fa-external-link-alt" alt="Website"></i>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 wrapper">
+        <div class="item">
+          <div class="check-out" >
+            Check out our social media page
+            <i class="fas fa-long-arrow-alt-right arrow1" aria-hidden="true"></i>
           </div>
         </div>
-        <!--/.row-->
       </div>
-      <!--/.container-->
+      <div class="col-md-3 footer__social-media--button">
+        <a href="" class="" ><i class="fab fa-instagram fa-lg instagram"></i></a>
+        <a href="" class="facebook" ><i class="fab fa-facebook-square fa-lg"></i></a>
+        <a href="mailto:" class="mail" ><i class="fas fa-envelope fa-lg"></i></a>
+        <button class="contact-us" >
+          Contact Us
+        </button>
+      </div>
     </div>
-    <!--/.footer-->
-
-  </footer>
+  </div>
   <footer class="footer__bottom__tmp">
     <div class="footer__bottom">
       <div class="container">
         <small class="footer__bottom--copyright">
-          Copyright &copy; WishComesTrueHK 2020. All rights reserved.
+          Copyright &copy; Wish Comes True HK 2020. All rights reserved.
         </small>
       </div>
       <!--/.footer-bottom-->
