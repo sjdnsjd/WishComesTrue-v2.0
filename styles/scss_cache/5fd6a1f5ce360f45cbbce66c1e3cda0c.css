@@ -1,3 +1,26 @@
-/* compiled by scssphp v0.0.12 on Fri, 11 Dec 2020 09:46:56 +0000 (0.0031s) */
+/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 12:25:20 +0000 (0.001s) */
 
-
+.header {
+  height: 357px; }
+  .header__container {
+    height: 100%; }
+  .header__logo--img {
+    height: 100%; }
+  .header__login {
+    height: 76px; }
+    .header__login--button {
+      background-color: #fc7650;
+      height: 51px;
+      width: 258px;
+      border: 0;
+      border-radius: 50px;
+      margin: auto;
+      color: #fff; }
+    .header__login--icon {
+      height: 76px;
+      width: 76px;
+      background-color: #0d72fb;
+      margin: auto;
+      font-size: 51px;
+      border-radius: 50%;
+      text-align: center; }
