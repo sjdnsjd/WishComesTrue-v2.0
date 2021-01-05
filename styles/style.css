@@ -167,11 +167,6 @@ letter-spacing:normal;
 padding:8px 20px;
 }
 
-.center {
-text-align:center;
-padding:10px;
-}
-
 .final {
 color:#000;
 padding-right:3px;
@@ -241,10 +236,6 @@ margin:0 auto;
 
 .field h5 {
 margin:auto;
-}
-
-tr,table {
-width:100%;
 }
 
 .profile li a,a:visited {
