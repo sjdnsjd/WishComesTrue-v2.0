@@ -1,17 +1,3 @@
-*,::before,::after {
-font-family:Roboto, sans-serif;
-margin:0;
-padding:0;
-}
-
-body {
-height:0 0;
-}
-
-img {
-margin:5%;
-}
-
 .slick-prev:before,.slick-next:before {
 color:#fce7ac!important;
 }
@@ -34,11 +20,6 @@ width:60%;
 .head {
 flex-basis:33%;
 text-align:center;
-}
-
-p {
-font-style:normal;
-font-weight:400;
 }
 
 .body {
