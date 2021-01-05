@@ -233,14 +233,6 @@ display:block;
 }
 
 @media max-width 800px{
-  .btn {
-  display:none;
-  }
-
-  header img {
-    margin:auto 6vh;
-  }
-
   section.content {
     width:100vw;
   }
