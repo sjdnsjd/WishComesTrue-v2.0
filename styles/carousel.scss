@@ -79,3 +79,9 @@ margin:0 2px;
 .dot:hover {
 background-color:#717171;
 }
+
+#body {
+overflow-y:scroll;
+height:calc(100%-50px);
+padding:3%;
+}
