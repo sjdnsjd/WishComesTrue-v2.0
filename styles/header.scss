@@ -12,6 +12,11 @@ header img {
 height:100%;
 margin:auto 3%;
 }
+
+@media max-width 800px {
+  header img {
+    margin:auto 6vh;
+  }
 /* ======WEBSITE HEADER====== */
 
 .header {
