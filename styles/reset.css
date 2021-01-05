@@ -1,0 +1,17 @@
+*,::before,::after {
+font-family:Roboto, sans-serif;
+margin:0;
+padding:0;
+}
+
+body {
+height:0 0;
+}
+
+img {
+margin:5%;
+}
+
+p {
+font-weight:400;
+}
