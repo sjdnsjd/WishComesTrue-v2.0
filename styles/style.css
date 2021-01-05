@@ -27,12 +27,6 @@ display:flex;
 height:90vh;
 }
 
-#body {
-overflow-y:scroll;
-height:calc(100%-50px);
-padding:3%;
-}
-
 .content {
 width:80vw;
 height:90vh;
@@ -108,15 +102,6 @@ padding:inherit;
 .wish__more-info:hover {
 cursor:pointer;
 background-color:#ffd301;
-}
-
-a:link {
-color:#000;
-text-decoration:none;
-}
-
-a:hover {
-color:#33f;
 }
 
 .button {
