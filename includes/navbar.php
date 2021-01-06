@@ -22,7 +22,7 @@
             if (strpos($_SERVER['REQUEST_URI'], 'home')) {
                 ?>
                 active <?php
-            } ?>" href="?page=home" id="about">ABOUT US
+            } ?>" href="?page=home" id="home">ABOUT US
         </a>
       </li>
       <li class="nav-item col-6 col-md-4">

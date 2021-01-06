@@ -6,10 +6,10 @@
         switch ($_GET['page']) {
         case 'home':
           $page = 'home.php';
+          break;
           // no break
-          case 'about':
-          $page = 'about.php';
-
+        case 'about':
+        $page = 'about.php';
           break;
         case 'donate':
           $page = 'donate.php';

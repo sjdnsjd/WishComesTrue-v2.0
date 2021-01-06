@@ -7,8 +7,9 @@
 <body>
   <div class="header container">
     <div class="row header__container">
+      
       <div class="col-md-4 header__container header__logo">
-        <img class="header__logo--img" src="https://static.wixstatic.com/media/49ac7e_d4a38e2276e443fdb36301428f08cbce~mv2.gif" alt="WishComesTrue Logo">
+        <img class="header__logo--img" src="../images/WCT logo.gif" alt="WishComesTrue Logo">
         <!-- logo -->
       </div>
       <div class="col-md-8 header__container ">
@@ -30,8 +31,9 @@
           </div>
         </div>
       </div>
+    
+      <div class="col-md-12 header__container--line"></div>
     </div>
-    <div class="header__container--line"></div>
   </div>
 </body>
 

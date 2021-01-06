@@ -1,3 +1,8 @@
-/* compiled by scssphp v0.0.12 on Tue, 29 Dec 2020 17:32:44 +0000 (0.0005s) */
+/* compiled by scssphp v0.0.12 on Wed, 06 Jan 2021 11:46:24 +0000 (0.0081s) */
 
+.center {
+  text-align: center;
+  padding: 10px; }
 
+tr, table {
+  width: 100%; }

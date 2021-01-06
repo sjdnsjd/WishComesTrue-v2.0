@@ -23,6 +23,10 @@
   <!-- Swiper -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+  <!-- index.scss -->
+  <link rel="stylesheet" type="text/css" href="style.php/index.scss">
+
+
   <title>WishComesTrueHK</title>
 </head>
 

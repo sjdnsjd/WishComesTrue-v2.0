@@ -1,7 +1,7 @@
-/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 15:53:11 +0000 (0.0046s) */
+/* compiled by scssphp v0.0.12 on Tue, 05 Jan 2021 07:35:41 +0000 (0.0062s) */
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100vw;
   height: 154px;

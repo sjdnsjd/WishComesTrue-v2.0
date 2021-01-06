@@ -1,4 +1,14 @@
-/* compiled by scssphp v0.0.12 on Fri, 01 Jan 2021 13:59:31 +0000 (0.0009s) */
+/* compiled by scssphp v0.0.12 on Wed, 06 Jan 2021 13:10:46 +0000 (0.0035s) */
+
+/* ======WEBSITE HEADER====== */
+header {
+  width: 100%;
+  background-color: #89c7e7;
+  min-height: 50px;
+  height: 10vh;
+  display: flex !important;
+  align-items: center;
+  /* ======WEBSITE HEADER====== */ }
 
 .header {
   height: 357px; }
@@ -10,7 +20,8 @@
       background-color: #fc7650;
       margin: 10px; }
   .header__logo--img {
-    height: 100%; }
+    height: 100%;
+    max-height: -webkit-fill-available; }
   .header__login {
     height: 76px; }
     .header__login--button {
