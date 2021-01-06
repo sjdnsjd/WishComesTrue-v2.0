@@ -9,7 +9,13 @@
     <div class="row header__container">
       
       <div class="col-md-4 header__container header__logo">
-        <img class="header__logo--img" src="../images/WCT logo.gif" alt="WishComesTrue Logo">
+        <a class="<?php
+            if (strpos($_SERVER['REQUEST_URI'], 'home')) {
+                ?>
+                active <?php
+            } ?>" href="?page=home" id="home"><img class="header__logo--img" src="../images/WCT logo.gif" alt="WishComesTrue Logo">
+        </a>
+        
         <!-- logo -->
       </div>
       <div class="col-md-8 header__container ">
