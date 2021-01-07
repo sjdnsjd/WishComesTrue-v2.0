@@ -14,8 +14,13 @@
     content="Our vision for this project is to create a website, where the wishes of minority groups are published to the public allowing volunteers to choose which ones they want to contribute to. Examples of these wishes include volunteers helping children who wish for better grades by tutoring." />
   <meta name="author" content="WishComesTrueHK Team" />
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
@@ -33,8 +38,14 @@
 <body>
   <?php
     require './includes/scripts.php';
-    require './includes/header.php';
-    require './includes/body.php';
+  ?>
+  <div class="container" style="background-color: white;">
+    <?php require './includes/header.php';
+
+      require './includes/body.php';
+    ?>
+  </div>
+  <?php
     require './includes/footer.php';
   ?>
 </body>

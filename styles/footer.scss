@@ -3,12 +3,13 @@
 .footer {
   position: relative;
   bottom: 0;
-  width: 100vw;
+  // width: 100vw;
   height: 154px;
   background-color: #ecf7f5;
+  margin: 20px auto;
 
   &__social-media {
-    &--text{
+    &--text {
       font-size: 20px;
       text-align: right;
       margin: auto;
@@ -17,19 +18,19 @@
       font-size: 20px;
       align-self: center;
 
-      a{
-        transition:color .15s ease-in-out;
-        color: #Fa7950;
+      a {
+        transition: color 0.15s ease-in-out;
+        color: #fa7950;
         margin: auto;
         top: 4px;
         position: relative;
 
-        &:hover{
-          color: #FFD94D;
+        &:hover {
+          color: #ffd94d;
         }
       }
-      .contact-us{
-        background-color: #Fa7950;
+      .contact-us {
+        background-color: #fa7950;
         height: 36px;
         width: 110px;
         border: 0;
@@ -38,16 +39,16 @@
         color: #ffffff;
         font-size: small;
         padding: 0;
-        
-        background: linear-gradient(to right, #FFD94D, #FFD94D 50%, #Fa7950  50%);
+
+        background: linear-gradient(to right, #ffd94d, #ffd94d 50%, #fa7950 50%);
         background-position: 100%;
         background-size: 200% 100%;
         transition: background-position 425ms ease;
-        
+
         &:hover {
-        background-color: #ff9d80;
-        background-position: 0 100%;
-      }
+          background-color: #ff9d80;
+          background-position: 0 100%;
+        }
       }
     }
   }
@@ -63,16 +64,21 @@
   }
 
   &__bottom {
-    bottom: 0;
-    position: absolute;
-    margin-bottom: 10px;
+    margin: 10px;
+    &--tmp {
+      position: relative;
+      bottom: 0;
+      // width: 100vw;
+      // height: 154px;
+      // background-color: #ecf7f5;
+      // margin: 20px auto;
+    }
     &--copyright {
       font-size: 12px;
       padding-top: 6px;
     }
   }
 }
-
 
 .wrapper {
   font-size: 20px;
@@ -93,7 +99,7 @@
 
 .check-out:hover {
   font-weight: normal;
-  .arrow1{
+  .arrow1 {
     animation: slide1 1s ease-in-out infinite;
   }
 }

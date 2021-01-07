@@ -1,11 +1,11 @@
-/* compiled by scssphp v0.0.12 on Tue, 05 Jan 2021 07:35:41 +0000 (0.0062s) */
+/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 17:05:58 +0000 (0.0035s) */
 
 .footer {
   position: relative;
   bottom: 0;
-  width: 100vw;
   height: 154px;
-  background-color: #ecf7f5; }
+  background-color: #ecf7f5;
+  margin: 20px auto; }
   .footer__social-media--text {
     font-size: 20px;
     text-align: right;
@@ -44,9 +44,10 @@
   .footer__top {
     height: 86px; }
   .footer__bottom {
-    bottom: 0;
-    position: absolute;
-    margin-bottom: 10px; }
+    margin: 10px; }
+    .footer__bottom--tmp {
+      position: relative;
+      bottom: 0; }
     .footer__bottom--copyright {
       font-size: 12px;
       padding-top: 6px; }

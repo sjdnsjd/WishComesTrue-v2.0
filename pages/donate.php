@@ -25,7 +25,6 @@
 <html>
 
 <head>
-
   <link rel="stylesheet" type="text/css" href="style.php/donate.scss" />
 </head>
 

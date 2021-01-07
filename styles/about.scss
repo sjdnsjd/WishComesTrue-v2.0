@@ -1,8 +1,86 @@
 .center {
-text-align:center;
-padding:10px;
+  text-align: center;
+  padding: 10px;
 }
 
-tr,table {
-width:100%;
+tr,
+table {
+  width: 100%;
+}
+
+.about {
+  align-items: center;
+
+  &__banner {
+    padding: 12px;
+    margin: 26px auto;
+    // background-color: blue;
+    margin-bottom: 36px;
+    &--img {
+      width: 100%;
+    }
+  }
+
+  &__subheading {
+    position: relative;
+    left: -13px;
+    height: 86px;
+    width: 336px;
+    background-color: #ff8c62;
+    font-size: 47px;
+    line-height: 1.4em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &--text {
+      margin: 10px 0px 0px 15px;
+      display: inline-block;
+    }
+  }
+
+  &__divider {
+    position: relative;
+    left: -6.5px;
+    height: 13px;
+    width: 13px;
+    background-color: grey;
+    transform: skewX(45deg);
+    z-index: -1;
+  }
+
+  &__head {
+    width: 100%;
+  }
+
+  &__title {
+    margin: 15px auto;
+    width: 574.87px;
+    height: 78.67px;
+    text-align: center;
+    &--text {
+      font-family: trend-sans-w00-four, sans-serif;
+      font-size: 60px;
+      -webkit-text-stroke: 1px white;
+      -webkit-text-fill-color: #ef8c57;
+      text-shadow: 1px 1px #ef8c57, 2px 2px #ffffff, 3px 3px #ef8c57, 4px 4px #fff, 5px 5px #ef8c57, 6px 6px #fff;
+    }
+  }
+}
+
+.members {
+  padding: 15px;
+
+  &__team {
+    text-align: center;
+    h2 {
+      font-family: impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;
+      color: blue;
+    }
+    &--names {
+      font-family: din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+      font-size: 16px;
+      line-height: 1.2em;
+      font-stretch: condensed;
+    }
+  }
 }

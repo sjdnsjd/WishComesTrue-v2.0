@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.12 on Wed, 06 Jan 2021 13:10:46 +0000 (0.0035s) */
+/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 16:59:35 +0000 (0.0041s) */
 
 /* ======WEBSITE HEADER====== */
 header {
@@ -13,12 +13,13 @@ header {
 .header {
   height: 357px; }
   .header__container {
-    height: 100%; }
+    height: 98%; }
     .header__container--line {
-      height: 16px;
+      height: 2% !important;
       width: 100%;
       background-color: #fc7650;
-      margin: 10px; }
+      opacity: 1;
+      margin: 0; }
   .header__logo--img {
     height: 100%;
     max-height: -webkit-fill-available; }

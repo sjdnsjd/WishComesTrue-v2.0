@@ -1,8 +1,9 @@
-/* compiled by scssphp v0.0.12 on Tue, 05 Jan 2021 07:38:56 +0000 (0.0005s) */
+/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 15:14:15 +0000 (0.0004s) */
 
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-color: #dbdbdb; }

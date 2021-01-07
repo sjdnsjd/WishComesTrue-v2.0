@@ -1,11 +1,11 @@
 /* ======WEBSITE HEADER====== */
 header {
-  width:100%;
-  background-color:#89c7e7;
-  min-height:50px;
-  height:10vh;
-  display:flex!important;
-  align-items:center;
+  width: 100%;
+  background-color: #89c7e7;
+  min-height: 50px;
+  height: 10vh;
+  display: flex !important;
+  align-items: center;
 }
 
 /* ======WEBSITE HEADER====== */
@@ -13,25 +13,27 @@ header {
 .header {
   height: 357px;
 
-  &__container{
-    height: 100%;
+  &__container {
+    height: 98%;
     &--line {
-      height: 16px;
+      // height: 16px !important ;
+      height: 2% !important ;
       width: 100%;
-      background-color: #FC7650;
-      margin: 10px;
+      background-color: #fc7650;
+      opacity: 1;
+      margin: 0;
     }
   }
   &__logo {
-    &--img{
+    &--img {
       height: 100%;
       max-height: -webkit-fill-available;
     }
   }
-  &__login{
+  &__login {
     height: 76px;
-    &--button{
-      background-color: #Fa7950;
+    &--button {
+      background-color: #fa7950;
       height: 51px;
       width: 258px;
       border: 0;
@@ -39,7 +41,7 @@ header {
       margin: auto;
       color: #ffffff;
     }
-    &--icon{
+    &--icon {
       height: 76px;
       width: 76px;
       background-color: #0d72fb;
@@ -48,6 +50,5 @@ header {
       border-radius: 50%;
       text-align: center;
     }
-    
   }
 }

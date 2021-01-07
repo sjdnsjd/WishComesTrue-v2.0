@@ -1,0 +1,40 @@
+/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 17:09:30 +0000 (0.003s) */
+
+.swiper-container {
+  height: fit-content;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.head {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse; }
+  .head__title {
+    font-size: 29px;
+    font-weight: 300;
+    align-self: center; }
+  .head__subtitle {
+    font-size: 15px;
+    align-self: center; }
+  .head__img {
+    /* overflow: hidden; */
+    display: flex;
+    padding: 0;
+    align-self: center;
+    /* display: flex; */
+    justify-self: center; }
+    .head__img img {
+      margin: auto;
+      width: 226px;
+      height: 288px;
+      /* height: 100%; */
+      margin: 0;
+      transition: transform 0.3s ease-out;
+      object-fit: cover; }
+
+.swiper-container-multirow-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly; }
