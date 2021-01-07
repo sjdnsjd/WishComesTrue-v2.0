@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wish Comes True | Donate</title>
 
-    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/donate.css" />
+    <link rel="stylesheet" type="text/css" href="./css/loader.css" />
     <script type="text/javascript">
       $(document).ready(function () {
         $('#about').click(function () {
-          window.location = './index.html';
+          window.location = './index.php';
         });
         $('#donate').click(function () {
           $('.body').load('./donate.html');
@@ -436,7 +437,16 @@
         </ul>
       </nav>
       <div id="body">
-        <div class="swiper-container">
+        <!-- under construction message -->
+        <div id="uc">
+          <span>404: Under Construction</span>
+          <br>
+          <div id="loading">
+            <div id="wiggle"></div>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class="swiper-container" style="display: none;" >
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
