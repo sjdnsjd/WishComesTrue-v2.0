@@ -1,15 +1,17 @@
+<!-- TODO: not tested on hosting -->
 <?php
 
 session_start();
 
-require_once 'google_settings.php';
+require_once 'includes/google_auth/google_settings.php';
 
-require_once 'google-login-api.php';
+require_once 'includes/google_auth/google-login-api.php';
 
 // Google passes a parameter 'code' in the Redirect Url
 if (isset($_GET['code'])) {
     try {
         $gapi = new GoogleLoginApi();
+        echo $gapi;
 
         // Get the access token
         $data = $gapi->GetAccessToken(CLIENT_ID, CLIENT_REDIRECT_URL, CLIENT_SECRET, $_GET['code']);

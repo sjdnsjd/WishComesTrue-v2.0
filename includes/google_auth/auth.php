@@ -3,7 +3,9 @@
 require_once 'google_settings.php';
 
 require_once 'login.php';
+
 $login_url = 'https://accounts.google.com/o/oauth2/v2/auth?scope='.urlencode('https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email').'&redirect_uri='.urlencode(CLIENT_REDIRECT_URL).'&response_type=code&client_id='.CLIENT_ID.'&access_type=online';
+
 $random_images_array = [
     'avatar2.png',
     'avatar5.png',
@@ -38,7 +40,7 @@ $avatar = array_rand($random_images_array, 1);
         </ul>
       </div>
       <?php } else { ?>
-      <img class="avatar" src="<?php echo '../../images/avatar/'.$random_images_array[$avatar]; ?>" alt="User" />
+      <img class="avatar" src="<?php echo 'images/avatar/'.$random_images_array[$avatar]; ?>" alt="User" />
       <div class="dropdown-content _info">
         <ul>
           <li class="withA">

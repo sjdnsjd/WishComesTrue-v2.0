@@ -1,9 +1,7 @@
-/* compiled by scssphp v0.0.12 on Fri, 11 Dec 2020 09:31:00 +0000 (0.0066s) */
+/* compiled by scssphp v0.0.12 on Sat, 09 Jan 2021 01:13:37 +0000 (0.0086s) */
 
 .filters {
-  width: 20vw;
   display: block;
-  height: 90vh;
   padding: 1%;
   min-width: 225px;
   overflow-y: scroll; }

@@ -1,11 +1,6 @@
-/* compiled by scssphp v0.0.12 on Tue, 05 Jan 2021 07:59:05 +0000 (0.0267s) */
+/* compiled by scssphp v0.0.12 on Sun, 10 Jan 2021 02:45:56 +0000 (0.0238s) */
 
-*, ::before, ::after {
-  font-family: Roboto, sans-serif;
-  margin: 0;
-  padding: 0;
-  /* SIDE CONTAINER (contains modal and profile)*/ }
-
+/* SIDE CONTAINER (contains modal and profile)*/
 .side-container {
   display: flex;
   align-items: center;
@@ -50,13 +45,13 @@
   width: 60%;
   height: 100%; }
 
-.modal-cancel {
+.modal--cancel {
   font-size: 20px;
   cursor: pointer;
   margin: 5px;
   padding: 5px; }
 
-.modal-content {
+.modal--content {
   width: 98%;
   border: none;
   display: contents;
@@ -71,13 +66,13 @@
   display: block;
   padding: 0.5rem 1rem; }
 
-.modal input[type='text'], input[type='email'], input[type='tel'] {
+.modal input[type="text"], input[type="email"], input[type="tel"] {
   width: 100%;
   box-sizing: border-box;
   margin: 8px 0;
   padding: 12px 20px; }
 
-.container {
+.modal--field-container {
   font-size: 13px;
   display: inline-flex;
   flex-flow: wrap;
@@ -102,7 +97,7 @@
 
 .modal .btn::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -126,7 +121,7 @@
   position: relative; }
 
 #close:after, #close:before {
-  content: '';
+  content: "";
   height: 20px;
   width: 20px;
   border-top: 1px solid #000;
@@ -157,7 +152,7 @@
   --input-border-bottom-color: #fff;
   margin: 12px 0; }
 
-.modal input[type='date'] {
+.modal input[type="date"] {
   margin: auto auto auto inherit; }
 
 .modal .date__label {
@@ -183,3 +178,7 @@ textarea {
 .btn:active {
   background-color: #ffd301 !important;
   color: #000; }
+
+@media max-width 800px {
+  .btn {
+    display: none; } }

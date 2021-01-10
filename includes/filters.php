@@ -1,3 +1,4 @@
+<!-- TODO: Rename variables -->
 <html>
 
 <head>

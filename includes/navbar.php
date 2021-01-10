@@ -1,9 +1,11 @@
+<!-- TODO: Onscroll minimize nav -->
 <html>
-  <head>
+
+<head>
   <link rel="stylesheet" type="text/css" href="style.php/navbar.scss" />
-  </head>
-  <nav>
-    <!-- <div class="nav-parent">
+</head>
+<nav>
+  <!-- <div class="nav-parent">
       <div class="nav-dropdown" id="nav-dropdown">
         <div class="dropdown-btn">
           <p>DROPDOWN</p>
@@ -16,29 +18,30 @@
         </ul>
       </div>
     </div> -->
-    <ul class="nav">
-      <li class="nav-item col-6 col-md-4">
-        <a class="<?php
+  <ul class="nav">
+    <li class="nav-item col-6 col-md-4">
+      <a class="<?php
             if (strpos($_SERVER['REQUEST_URI'], 'home')) {
                 ?>
                 active <?php
             } ?>" href="?page=home" id="home">ABOUT US
-        </a>
-      </li>
-      <li class="nav-item col-6 col-md-4">
-        <a class="<?php
+      </a>
+    </li>
+    <li class="nav-item col-6 col-md-4">
+      <a class="<?php
         if (strpos($_SERVER['REQUEST_URI'], 'donate')) {
             ?>active <?php
         } ?>" href="?page=donate" id="donate">DONATE
-        </a>
-      </li>
-      <li class="nav-item col-6 col-md-4">
-        <a class="<?php
+      </a>
+    </li>
+    <li class="nav-item col-6 col-md-4">
+      <a class="<?php
         if (strpos($_SERVER['REQUEST_URI'], 'volunteer')) {
             ?>active <?php
         } ?>" href="?page=volunteer" id="volunteer">VOLUNTEER
-        </a>
-      </li>
-    </ul>
-  </nav>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 </html>

@@ -1,0 +1,90 @@
+.field {
+  display: flex;
+  margin: auto;
+  padding: 3%;
+  border-bottom: black solid;
+  border-bottom-width: thin;
+}
+
+.field h4 {
+  margin: 0 auto;
+  width: 40%;
+  height: 100%;
+}
+
+.field h5 {
+  margin: auto;
+  width: 60%;
+}
+
+.wishes {
+  height: 90%;
+  padding: 10px;
+}
+
+.wish {
+  display: flex;
+  min-height: 124px;
+  width: 95%;
+  background: #ffffc2;
+  border-radius: 15px;
+  box-shadow: 3px 5px 11px rgba(0, 0, 0, 0.25);
+  margin: 2% auto;
+  padding: 2%;
+}
+
+.wish .wish__name {
+  height: 55%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  margin: 1%;
+}
+
+.wish .wish__filters {
+  height: 40%;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.wish .wish__contents {
+  width: 80%;
+}
+
+.wish .wish__more-info {
+  width: 25%;
+  height: 45%;
+  background: #fff684;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: inherit;
+}
+
+.wish__more-info:hover {
+  cursor: pointer;
+  background-color: #ffd301;
+}

@@ -30,46 +30,45 @@
 
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <?php require 'includes/filters.php'; ?>
       <div class="col-md-9">
-        <section class="content">
-          <div id="body">
-            <?php require 'includes/404construction.php'; ?>
-            <!-- Slider -->
-            <div class="swiper-container" style="display: none;">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <?php foreach ($sliderImages as $sliderImage) { ?>
-                <div class="swiper-slide">
-                  <div class="img-div">
-                    <img src="./images/<?php echo $sliderImage['filename']; ?>" />
-                    <div class="slide-text">Source: <?php echo $sliderImage['displayText']; ?>
-                    </div>
-                  </div>
+        <?php require 'includes/404construction.php'; ?>
+        <!-- TODO: Fix carousel -->
+        <!-- Slider -->
+        <div class="swiper-container" style="display: none;">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <?php foreach ($sliderImages as $sliderImage) { ?>
+            <div class="swiper-slide">
+              <div class="img-div">
+                <img src="images/donate_carousel/<?php echo $sliderImage['filename']; ?>" />
+                <div class="slide-text">Source: <?php echo $sliderImage['displayText']; ?>
                 </div>
-                <?php } ?>
               </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
             </div>
+            <?php } ?>
           </div>
-        </section>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+
       </div>
     </div>
   </div>
 
 
   <script type="text/javascript">
-  <?php include 'js/donate.js'; ?>
+  <?php require 'js/donate.js'; ?>
   </script>
 
 </body>

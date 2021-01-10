@@ -1,0 +1,17 @@
+/* compiled by scssphp v0.0.12 on Sat, 09 Jan 2021 01:08:56 +0000 (0.0041s) */
+
+.field {
+  display: flex;
+  margin: auto;
+  padding: 3%;
+  border-bottom: black solid;
+  border-bottom-width: thin; }
+
+.field h4 {
+  margin: 0 auto;
+  width: 40%;
+  height: 100%; }
+
+.field h5 {
+  margin: auto;
+  width: 60%; }

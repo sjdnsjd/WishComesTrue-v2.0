@@ -6,7 +6,6 @@
 
 <body>
   <div class="about">
-    <!-- <div style="left:0px;right:0px;background-color:#ff8c62;height:16px;"></div> -->
     <div class="about__banner">
       <img class="about__banner--img"
         src="https://static.wixstatic.com/media/nsplsh_41456154556e766e65696b~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1912,h_532,al_c,q_85,usm_0.66_1.00_0.01/Image%20by%20Larm%20Rmah.webp"
@@ -60,7 +59,7 @@
           <div>Dennis CHOW</div>
           <div>Arthur CHEUNG</div>
           <div>Manun CHAUHAAN</div>
-          <div>Nikhil RAMCHANDANI</div><br><br><br><br><br><br><br>
+          <div>Nikhil RAMCHANDANI</div>
         </div>
 
       </div>
@@ -80,7 +79,7 @@
           <div>Diya SAMTANI</div>
           <div>Mir KALYANI</div>
           <div>Anders LAMM</div>
-          <div>Jainam SANGHVI</div><br><br>
+          <div>Jainam SANGHVI</div>
         </div>
       </div>
     </div>
