@@ -1,6 +1,6 @@
 <!-- TODO: Manun redo -->
-<html>
 
+<html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.php/home.scss">
 </head>
