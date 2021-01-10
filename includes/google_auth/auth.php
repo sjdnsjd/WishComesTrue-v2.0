@@ -35,7 +35,7 @@ $avatar = array_rand($random_images_array, 1);
             <i class="fas fa-envelope fa-lg"></i><?php echo $_SESSION['email']; ?>
           </li>
           <li class="withA">
-            <a href="./logout.php"><i class="fas fa-sign-out-alt fa-lg"></i> Logout</a>
+            <a href="logout.php"><i class="fas fa-sign-out-alt fa-lg"></i> Logout</a>
           </li>
         </ul>
       </div>
@@ -44,7 +44,10 @@ $avatar = array_rand($random_images_array, 1);
       <div class="dropdown-content _info">
         <ul>
           <li class="withA">
-            <a href="<?php echo $login_url; ?>"><i class="fab fa-google fa-lg"></i> Login with Google</a>
+            <a href="<?php echo $login_url; ?>">
+              <i class="fab fa-google fa-lg"></i>
+              Login with Google
+            </a>
           </li>
         </ul>
       </div>

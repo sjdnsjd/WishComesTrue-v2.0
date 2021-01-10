@@ -1,7 +1,4 @@
-<!-- TODO: not tested on hosting -->
 <?php
-
-session_start();
 
 require_once 'includes/google_auth/google_settings.php';
 
