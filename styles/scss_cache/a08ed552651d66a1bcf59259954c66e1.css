@@ -1,0 +1,9 @@
+/* compiled by scssphp v0.0.12 on Mon, 11 Jan 2021 10:53:00 +0000 (0.0147s) */
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100vh;
+  background-color: #dbdbdb; }

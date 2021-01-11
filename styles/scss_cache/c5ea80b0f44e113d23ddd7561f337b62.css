@@ -1,0 +1,43 @@
+/* compiled by scssphp v0.0.12 on Mon, 11 Jan 2021 10:53:00 +0000 (0.0198s) */
+
+/* ======WEBSITE HEADER====== */
+header {
+  width: 100%;
+  background-color: #89c7e7;
+  min-height: 50px;
+  height: 10vh;
+  display: flex !important;
+  align-items: center;
+  /* ======WEBSITE HEADER====== */ }
+
+.header {
+  height: 357px; }
+  .header__container {
+    height: 98%; }
+    .header__container--line {
+      height: 2% !important;
+      width: 100%;
+      background-color: #fc7650;
+      opacity: 1;
+      margin: 0; }
+  .header__logo--img {
+    height: 100%;
+    max-height: -webkit-fill-available; }
+  .header__login {
+    height: 76px; }
+    .header__login--button {
+      background-color: #fa7950;
+      height: 51px;
+      width: 258px;
+      border: 0;
+      border-radius: 50px;
+      margin: auto;
+      color: #fff; }
+    .header__login--icon {
+      height: 76px;
+      width: 76px;
+      background-color: #0d72fb;
+      margin: auto;
+      font-size: 51px;
+      border-radius: 50%;
+      text-align: center; }
