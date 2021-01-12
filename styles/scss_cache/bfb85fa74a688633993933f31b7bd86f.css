@@ -1,6 +1,58 @@
-/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 17:06:59 +0000 (0.0016s) */
+/* compiled by scssphp v0.0.12 on Tue, 12 Jan 2021 10:24:30 +0000 (0.0031s) */
 
 .home__img {
   width: 100%;
   object-fit: cover;
   max-height: 50vh; }
+
+.subheading {
+  position: relative;
+  left: -5px;
+  height: 99px;
+  width: 308px;
+  background-color: #008afc;
+  font-size: 53px;
+  line-height: 1.4em;
+  letter-spacing: 0.1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+  .subheading__text {
+    margin: 10px 0px 0px 15px;
+    display: inline-block; }
+  .subheading__img {
+    width: 162px;
+    height: 162px;
+    object-fit: cover;
+    position: absolute; }
+  .subheading__girl {
+    box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38);
+    border-width: 4px;
+    border-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 627px;
+    top: 951px;
+    width: 482px;
+    height: 243px; }
+    .subheading__girl--container {
+      border-radius: 50%;
+      overflow: hidden;
+      display: block;
+      box-shadow: var(--shd, 0 1px 3px rgba(0, 0, 0, 0.5));
+      border-style: solid;
+      border-color: rgba(0, 0, 0, );
+      border-width: var(--brw, 2px);
+      background-color: rgba(0, 0, 0, );
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
+    .subheading__girl--img {
+      border-radius: 50%;
+      overflow: hidden;
+      min-height: var(--image-min-height);
+      min-width: var(--image-min-width);
+      width: 100%;
+      height: 100%;
+      display: block;
+      box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38); }
