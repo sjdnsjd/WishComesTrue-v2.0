@@ -9,66 +9,66 @@
 }
 
 /* MODAL */
-.modal-background {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  display: none;
-}
+// .modal-background {
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 100%;
+//   background-color: #000;
+//   position: absolute;
+//   top: 0;
+//   display: none;
+// }
 
-.modal-background-new {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 0;
-  overflow-y: overlay;
-}
+// .modal-background-new {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 0;
+//   overflow-y: overlay;
+// }
 
-.modal {
-  margin-top: 20px;
-  background-color: $yellow-light;
-  width: 40%;
-  height: 80%;
-  overflow: scroll;
-  position: relative;
-  display: block;
-}
+// .modal {
+//   margin-top: 20px;
+//   background-color: $yellow-light;
+//   width: 40%;
+//   height: 80%;
+//   overflow: scroll;
+//   position: relative;
+//   display: block;
+// }
 
-.modal-header {
-  border: none;
-  flex-direction: row-reverse;
-}
+// .modal-header {
+//   border: none;
+//   flex-direction: row-reverse;
+// }
 
-.modal_new.modal {
-  margin-top: 20px;
-  background-color: $yellow-light;
-  width: 60%;
-  height: 100%;
-}
+// .modal_new.modal {
+//   margin-top: 20px;
+//   background-color: $yellow-light;
+//   width: 60%;
+//   height: 100%;
+// }
 
-.modal--cancel {
-  font-size: 20px;
-  cursor: pointer;
-  margin: 5px;
-  padding: 5px;
-}
+// .modal--cancel {
+//   font-size: 20px;
+//   cursor: pointer;
+//   margin: 5px;
+//   padding: 5px;
+// }
 
-.modal--content {
-  width: 98%;
-  border: none;
-  display: contents;
-  background-color: transparent;
-  margin: auto;
-}
+// .modal--content {
+//   width: 98%;
+//   border: none;
+//   display: contents;
+//   background-color: transparent;
+//   margin: auto;
+// }
 
 .modal input {
   width: 100%;
-  box-shadow: 0 0 15px 4px #000;
+  // box-shadow: 0 0 15px 4px #000;
   border-radius: 5px;
   font-size: 14px;
   display: block;
@@ -109,9 +109,18 @@ input[type="tel"] {
   background-color: #404040 !important;
   margin: 3% auto;
   padding: 8px 20px;
+  background-color: $yellow-light !important;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  &:hover {
+  background-color: $yellow-light !important;
 }
-
-.modal .btn::before {
+&:active {
+  background-color: $yellow-dark !important;
+  color: #000;
+}
+&::before {
   position: absolute;
   content: "";
   top: 0;
@@ -121,6 +130,9 @@ input[type="tel"] {
   transition: 0.6s;
   transform: translateX(100%);
 }
+}
+
+
 
 .btn__ani {
   border: none;
@@ -194,21 +206,7 @@ textarea {
   padding: 15px 22px;
 }
 
-.btn {
-  background-color: $yellow-light !important;
-  border: none;
-  border-radius: 5px;
-  margin: 10px;
-}
 
-.btn:hover {
-  background-color: $yellow-light !important;
-}
-
-.btn:active {
-  background-color: $yellow-dark !important;
-  color: #000;
-}
 
 @media max-width 800px {
   .btn {
