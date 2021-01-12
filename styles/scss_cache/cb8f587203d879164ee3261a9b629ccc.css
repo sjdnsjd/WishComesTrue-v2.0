@@ -1,0 +1,6 @@
+/* compiled by scssphp v0.0.12 on Mon, 11 Jan 2021 10:53:01 +0000 (0.0293s) */
+
+.home__img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 50vh; }

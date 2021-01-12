@@ -2,8 +2,8 @@
 	<?php
 
 	$current_page = 'home.php';
-	if ( isset( $_GET['current_page'] ) && '' != $_GET['current_page'] ) {
-		switch ( $_GET['current_page'] ) {
+	if ( isset( $_GET['page'] ) && '' != $_GET['page'] ) {
+		switch ( $_GET['page'] ) {
 			case 'home':
 				$current_page = 'home.php';
 
@@ -31,7 +31,7 @@
 		}
 	}
 
-	require './current_pages/' . $current_page;
+	require './pages/' . $current_page;
 
 	?>
 </div>
