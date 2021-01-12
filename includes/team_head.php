@@ -3,10 +3,10 @@
 // $login_url = 'https://accounts.google.com/o/oauth2/v2/auth?scope='.urlencode('https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email').'&redirect_uri='.urlencode(CLIENT_REDIRECT_URL).'&response_type=code&client_id='.CLIENT_ID.'&access_type=online';
 $head_images_array = array(
 	array( 'Noshin Chowdhury', 'Communications & Logistics', 'noshin.jpeg' ),
-	array( 'Noshin Chowdhury', 'Communications & Logistics', 'ritika.jpeg' ),
-	array( 'Noshin Chowdhury', 'Coding', 'jasmine.jpg' ),
-	array( 'Noshin Chowdhury', 'Marketing', 'harshita.jpg' ),
-	array( 'Noshin Chowdhury', 'Marketing', 'sunwoo.jpeg' ),
+	array( 'Ritika Vaswani', 'Communications & Logistics', 'ritika.jpeg' ),
+	array( 'Jasmine Yeung', 'Coding', 'jasmine.jpg' ),
+	array( 'Harshita Parmar', 'Marketing', 'harshita.jpg' ),
+	array( 'Sunwoo Joo', 'Marketing', 'sunwoo.jpeg' ),
 );
 // $head = array_rand($head_images_array, 1);
 ?>
