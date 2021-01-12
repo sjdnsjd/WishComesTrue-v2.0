@@ -32,7 +32,7 @@
     <div class="footer__bottom">
       <div class="container">
         <small class="footer__bottom--copyright">
-          Copyright &copy; Wish Comes True HK 2020. All rights reserved.
+          Copyright &copy; 2021 WishComesTrueHK. All rights reserved.
         </small>
       </div>
       <!--/.footer-bottom-->

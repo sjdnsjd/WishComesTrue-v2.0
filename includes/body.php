@@ -1,37 +1,37 @@
 <div>
-  <?php
+	<?php
 
-    $page = 'home.php';
-    if (isset($_GET['page']) && '' != $_GET['page']) {
-        switch ($_GET['page']) {
-        case 'home':
-          $page = 'home.php';
+	$current_page = 'home.php';
+	if ( isset( $_GET['current_page'] ) && '' != $_GET['current_page'] ) {
+		switch ( $_GET['current_page'] ) {
+			case 'home':
+				$current_page = 'home.php';
 
-          break;
+				break;
 
-        case 'about':
-        $page = 'about.php';
+			case 'about':
+				$current_page = 'about.php';
 
-          break;
+				break;
 
-        case 'donate':
-          $page = 'donate.php';
+			case 'donate':
+				$current_page = 'donate.php';
 
-          break;
+				break;
 
-        case 'volunteer':
-          $page = 'volunteer.php';
+			case 'volunteer':
+				$current_page = 'volunteer.php';
 
-          break;
+				break;
 
-        default:
-          $page = 'home.php';
+			default:
+				$current_page = 'home.php';
 
-          break;
-      }
-    }
+				break;
+		}
+	}
 
-    include './pages/'.$page;
+	require './current_pages/' . $current_page;
 
-  ?>
+	?>
 </div>
