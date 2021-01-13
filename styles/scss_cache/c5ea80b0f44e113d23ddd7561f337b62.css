@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.12 on Wed, 13 Jan 2021 06:40:34 +0000 (0.0144s) */
+/* compiled by scssphp v0.0.12 on Wed, 13 Jan 2021 08:00:09 +0000 (0.0183s) */
 
 /* ======WEBSITE HEADER====== */
 header {
@@ -12,8 +12,9 @@ header {
 
 .header {
   height: 357px; }
-  .header__container {
-    height: 98%; }
+  @media (min-width: 768px) {
+    .header__container {
+      height: 98%; } }
     .header__container--line {
       height: 2% !important;
       width: 100%;
@@ -21,8 +22,8 @@ header {
       opacity: 1;
       margin: 0; }
   .header__logo--img {
-    height: 100%;
-    max-height: -webkit-fill-available; }
+    max-height: -webkit-fill-available;
+    max-width: -webkit-fill-available; }
   .header__login {
     height: 76px; }
     .header__login--button {
@@ -41,3 +42,30 @@ header {
       font-size: 51px;
       border-radius: 50%;
       text-align: center; }
+
+.auth__button {
+  height: 100%;
+  border: #fa7950 1px solid;
+  display: inline-block;
+  letter-spacing: 2.25px;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  color: black;
+  font-weight: lighter;
+  background: linear-gradient(to right, #fa7950, #fa7950 50%, #fff 50%);
+  background-position: 100%;
+  background-size: 200% 100%;
+  transition: background-position 425ms ease;
+  width: 12vw; }
+  .auth__button:hover, .auth__button.active {
+    border: 0px;
+    background-color: #ffd94d;
+    background-position: 0 100%;
+    color: white; }
+
+.btn:disabled {
+  background-color: transparent;
+  color: black; }

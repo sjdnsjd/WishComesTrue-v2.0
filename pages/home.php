@@ -2,6 +2,11 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="style.php/home.scss">
+    <style>
+	.center{
+		text-align: center;
+	}
+	</style>
 </head>
 
 <body>
@@ -48,13 +53,13 @@
 
 	<div class="row align-items-center justify-content-center">
 		<div class="col-md-12">
-			<h1>MEET THE FOUNDERS</h1>
+			<h1 style="text-align:center;">MEET THE FOUNDERS</h1>
 		</div>
 		<div class="col-md-6">
-			<img src="images/arnav.jpg" width="250" height="280" />
+			<img src="images/arnav2.jpg" width="280" height="280" align="middle" />
 		</div>
 		<div class="col-md-6">
-			<img src="images/aditi.jpeg" width="250" height="280" />
+			<img src="images/Aditi2.jpg" width="280" height="280" alt="center" />
 		</div>
 		<div class="col-md-12">
 			<button>
