@@ -1,6 +1,94 @@
-/* compiled by scssphp v0.0.12 on Mon, 11 Jan 2021 10:53:01 +0000 (0.0293s) */
+/* compiled by scssphp v0.0.12 on Wed, 13 Jan 2021 06:40:34 +0000 (0.0207s) */
+
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@font-face {
+  font-family: "ReklameScript";
+  src: url("/fonts/ReklameScriptMedium.otf") format("opentype"); }
 
 .home__img {
   width: 100%;
   object-fit: cover;
   max-height: 50vh; }
+
+.subheading {
+  position: relative;
+  left: -5px;
+  max-height: 99px;
+  max-width: 308px;
+  background-color: #008afc;
+  font-size: 53px;
+  line-height: 1.4em;
+  letter-spacing: 0.1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+  .subheading__text {
+    margin: 10px 0px 0px 15px;
+    display: inline-block;
+    font-family: "ReklameScript", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.4em; }
+    .subheading__text {
+      font-size: 40px; }
+      @media screen and (min-width: 320px) {
+  .subheading__text {
+    font-size: calc(40px + 13 *
+            ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+  .subheading__text {
+    font-size: 53px; } }
+  .subheading__img {
+    width: auto;
+    height: 17vw;
+    object-fit: scale-down;
+    position: absolute;
+    min-height: 12vh;
+    max-height: 170px; }
+  .subheading__girl {
+    box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38);
+    border-width: 4px;
+    border-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 627px;
+    top: 951px;
+    width: fit-content;
+    margin: 6px;
+    height: auto;
+    max-height: 28vh;
+    width: fit-content;
+    min-height: 160px;
+    min-width: 282px;
+    max-height: 240px;
+    max-width: 367px; }
+    .subheading__girl--img {
+      border-radius: 50%;
+      overflow: hidden;
+      min-height: var(--image-min-height);
+      min-width: var(--image-min-width);
+      width: 100%;
+      height: 100%;
+      display: block;
+      box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38);
+      padding: 4px; }
+
+.paragraph {
+  font-family: "Basic", sans-serif;
+  color: #556e6c; }
+  .paragraph__first {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-align: justify;
+    letter-spacing: normal; }
+  .paragraph__second {
+    font-size: 21px;
+    line-height: 1.4em;
+    text-align: justify; }
+
+.container__line {
+  height: 1vh !important;
+  width: 100%;
+  background-color: #fc7650;
+  opacity: 1;
+  margin: 1vh 0; }

@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.12 on Mon, 11 Jan 2021 10:53:00 +0000 (0.0198s) */
+/* compiled by scssphp v0.0.12 on Wed, 13 Jan 2021 06:40:34 +0000 (0.0144s) */
 
 /* ======WEBSITE HEADER====== */
 header {
@@ -28,7 +28,7 @@ header {
     .header__login--button {
       background-color: #fa7950;
       height: 51px;
-      width: 258px;
+      width: 275px;
       border: 0;
       border-radius: 50px;
       margin: auto;
