@@ -55,11 +55,11 @@
 		<div class="col-md-12">
 			<h1 style="text-align:center;">MEET THE FOUNDERS</h1>
 		</div>
-		<div class="col-md-6">
-			<img src="images/arnav2.jpg" width="280" height="280" align="middle" />
+		<div class="col-md-3">
+			<img src="images/arnav2.jpg" width="280" height="280"/>
 		</div>
-		<div class="col-md-6">
-			<img src="images/Aditi2.jpg" width="280" height="280" alt="center" />
+		<div class="col-md-3">
+			<img src="images/Aditi2.jpg" width="280" height="280"/>
 		</div>
 		<div class="col-md-12">
 			<button>
