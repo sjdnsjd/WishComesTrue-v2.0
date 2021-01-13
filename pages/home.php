@@ -80,7 +80,7 @@
 			<p class="founders__heading">Meet the founders</p>
 		</div>
 		<div class="col-md-5">
-			<img src="images/arnav2.jpg" class="founders__img" width="280" height="280" />
+			<img src="images/Arnav2.jpg" class="founders__img" width="280" height="280" />
 		</div>
 		<div class="col-md-5">
 			<img src="images/Aditi2.jpg" class="founders__img" width="280" height="280" />

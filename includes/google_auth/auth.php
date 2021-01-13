@@ -38,15 +38,15 @@ $avatar              = array_rand( $random_images_array, 1 );
 			<?php if ( isset( $_SESSION['id'] ) ) { ?>
 			<img class="avatar dropdown-toggle" src="<?php echo $_SESSION['picture']; ?>"
 				alt="<?php echo $_SESSION['name']; ?>" data-bs-toggle="dropdown" aria-expanded="false" />
-			<div class="dropdown-menu dropdown-menu-end dropdown-content _info">
+			<div class="dropdown-content _info">
 				<ul>
-					<li><i class="dropdown-item fas fa-user fa-lg"></i><?php echo $_SESSION['name']; ?>
+					<li><i class="fas fa-user fa-lg"></i><?php echo $_SESSION['name']; ?>
 					</li>
 					<li>
-						<i class="dropdown-item fas fa-envelope fa-lg"></i><?php echo $_SESSION['email']; ?>
+						<i class="fas fa-envelope fa-lg"></i><?php echo $_SESSION['email']; ?>
 					</li>
 					<li class="withA">
-						<a href="logout.php"><i class="dropdown-item fas fa-sign-out-alt fa-lg"></i> Logout</a>
+						<a href="logout.php"><i class="fas fa-sign-out-alt fa-lg"></i> Logout</a>
 					</li>
 				</ul>
 			</div>
