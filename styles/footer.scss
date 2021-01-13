@@ -1,9 +1,9 @@
 @import "variables";
+@import "fonts";
 
 .footer {
   position: relative;
   bottom: 0;
-  // width: 100vw;
   height: 154px;
   background-color: #ecf7f5;
   margin: 20px auto;
@@ -44,6 +44,8 @@
         background-position: 100%;
         background-size: 200% 100%;
         transition: background-position 425ms ease;
+
+        font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,Helvetica, sans-serif;
 
         &:hover {
           background-color: #ff9d80;
@@ -95,6 +97,9 @@
   padding: 15px;
   border-radius: 3px;
   transition: background 0.5s ease;
+  font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+  color: #292929;
+  letter-spacing: 0.15em;
 }
 
 .check-out:hover {

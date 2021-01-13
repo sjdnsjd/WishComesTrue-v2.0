@@ -50,7 +50,7 @@
 			</div>
 			<div class="col-md-4 members__team">
 				<h2>
-					Best
+					Coding
 				</h2>
 				<div class="members__team--names">
 					<div>Jasmine YEUNG</div>
@@ -65,7 +65,7 @@
 			</div>
 			<div class="col-md-4 members__team">
 				<h2>
-					Best
+					Marketing
 				</h2>
 				<div class="members__team--names">
 					<div>Sunwoo JOO</div>

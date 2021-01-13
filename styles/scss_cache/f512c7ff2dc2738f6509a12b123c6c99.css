@@ -1,4 +1,4 @@
-/* compiled by scssphp v0.0.12 on Thu, 07 Jan 2021 17:01:42 +0000 (0.0038s) */
+/* compiled by scssphp v0.0.12 on Wed, 13 Jan 2021 13:25:19 +0000 (0.0029s) */
 
 .center {
   text-align: center;
@@ -19,14 +19,14 @@ tr, table {
     position: relative;
     left: -13px;
     height: 86px;
-    width: 336px;
-    background-color: #ff8c62;
+    width: fit-content;
+    background-color: #f4752c;
     font-size: 47px;
     line-height: 1.4em;
     color: white;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: "Play", Helvetica, sans-serif; }
     .about__subheading--text {
-      margin: 10px 0px 0px 15px;
+      margin: 1vh 1vw;
       display: inline-block; }
   .about__divider {
     position: relative;
@@ -56,9 +56,12 @@ tr, table {
     text-align: center; }
     .members__team h2 {
       font-family: impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;
-      color: blue; }
+      color: #008afc;
+      font-size: 20px;
+      letter-spacing: 0.15em;
+      margin: 1vh 2vw; }
     .members__team--names {
-      font-family: din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+      font-family: "DIN Next W01 Light", din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
       font-size: 16px;
       line-height: 1.2em;
       font-stretch: condensed; }

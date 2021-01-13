@@ -1,6 +1,18 @@
 @font-face {
-	font-family: "ReklameScript";
+	font-family: "Reklame Script";
 	src: url("/fonts/ReklameScriptMedium.otf") format("opentype");
 }
 
+@font-face {
+	font-family: "Trend";
+	src: url("/fonts/Trend.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "DIN Next W01 Light";
+	src: url("/fonts/DIN.ttf") format("truetype");
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
