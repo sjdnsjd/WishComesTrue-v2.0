@@ -1,3 +1,36 @@
+@import "fonts";
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(
+          #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+            ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+        );
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 40px;
+$max_font: 53px;
+
 .home {
   &__img {
     width: 100%;
@@ -9,8 +42,8 @@
 .subheading {
   position: relative;
   left: -5px;
-  height: 99px;
-  width: 308px;
+  max-height: 99px;
+  max-width: 308px;
   background-color: #008afc;
   font-size: 53px;
   line-height: 1.4em;
@@ -21,40 +54,38 @@
   &__text {
     margin: 10px 0px 0px 15px;
     display: inline-block;
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
+    font-family: "ReklameScript", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
   }
   &__img {
-    width: 162px;
-    height: 162px;
-    object-fit: cover;
+    width: auto;
+    height: 17vw;
+    object-fit: scale-down;
     position: absolute;
+    min-height: 12vh;
+    max-height: 170px;
   }
   &__girl {
     box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38);
     border-width: 4px;
     border-color: white;
     padding: 4px;
-    // width: 265px;
-    // height: 148px;
     border-radius: 50%;
     overflow: hidden;
     left: 627px;
     top: 951px;
-    width:482px; 
-    height:243px;
-    
-    &--container {
-      border-radius: 50%;
-      overflow: hidden;
-      display: block;
-      box-shadow: var(--shd, 0 1px 3px rgba(0, 0, 0, 0.5));
-      border-style: solid;
-      border-color: rgba(var(--brd, var(--color_11)), var(--alpha-brd, 1));
-      border-width: var(--brw, 2px);
-      background-color: rgba(var(--brd, var(--color_11)), var(--alpha-brd, 1));
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-    }
+    width: fit-content;
+    margin: 6px;
+    height: auto;
+    max-height: 28vh;
+    width: fit-content;
+    min-height: 160px;
+    min-width: 282px;
+    max-height: 240px;
+    max-width: 367px;
+
     &--img {
       border-radius: 50%;
       overflow: hidden;
@@ -64,6 +95,33 @@
       height: 100%;
       display: block;
       box-shadow: 19.33px 8.21px 14px 4px rgba(0, 0, 0, 0.38);
+      padding: 4px;
     }
   }
+}
+
+.paragraph {
+  font-family: "Basic", sans-serif;
+  color:#556e6c;
+  &__first {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-align: justify;
+    letter-spacing: normal;
+  }
+  &__second {
+    font-size: 21px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
+
+
+.container__line {
+  height: 1vh !important ;
+  width: 100%;
+  background-color: #fc7650;
+  opacity: 1;
+  margin: 1vh 0;
 }
