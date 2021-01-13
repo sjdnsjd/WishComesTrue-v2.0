@@ -1,3 +1,4 @@
+$breakpoint-tablet: 768px;
 /* ======WEBSITE HEADER====== */
 header {
   width: 100%;
@@ -14,7 +15,9 @@ header {
   height: 357px;
 
   &__container {
-    height: 98%;
+    @media (min-width: $breakpoint-tablet) {
+      height: 98%;
+    }
     &--line {
       // height: 16px !important ;
       height: 2% !important ;
@@ -26,8 +29,8 @@ header {
   }
   &__logo {
     &--img {
-      height: 100%;
       max-height: -webkit-fill-available;
+      max-width: -webkit-fill-available;
     }
   }
   &__login {
@@ -51,4 +54,38 @@ header {
       text-align: center;
     }
   }
+}
+
+.auth__button {
+  height: 100%;
+  border: #fa7950 1px solid;
+  display: inline-block;
+  letter-spacing: 2.25px;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  color: black;
+  font-weight: lighter;
+
+  background: linear-gradient(to right, #fa7950, #fa7950 50%, #ffffff 50%);
+  background-position: 100%;
+  background-size: 200% 100%;
+  transition: background-position 425ms ease;
+
+  width: 12vw;
+
+  &:hover,
+  &.active {
+    border: 0px;
+    background-color: #ffd94d;
+    background-position: 0 100%;
+    color: white;
+  }
+}
+
+.btn:disabled {
+  background-color: transparent;
+  color: black;
 }
