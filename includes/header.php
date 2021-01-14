@@ -54,7 +54,7 @@
 	<!-- Modal -->
 	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
 		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered modal-lg">
+		<div class="modal-dialog modal-dialog-centered modal-lg modal-auth  ">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="staticBackdropLabel">Request A Wish</h5>
@@ -115,7 +115,7 @@
 
 						<h4>&nbsp Minority Groups</h4>
 
-						<div class="modal--field-container check__group">
+						<div class="modal-auth--field-container check__group">
 							<label class="checkbox__label" for="minority-children">&nbsp Children<input type="checkbox"
 									id="minority-children" name="minority[]" value="Children" /><span
 									class="checkbox__custom"></span></label>

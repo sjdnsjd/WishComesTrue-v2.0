@@ -27,7 +27,7 @@ if ( mysqli_connect_errno() ) {
 
 <head>
 	<link rel="stylesheet" type="text/css" href="style.php/volunteer.scss">
-	<link rel="stylesheet" type="text/css" href="style.php/modal.scss">
+	<!-- <link rel="stylesheet" type="text/css" href="style.php/modal.scss"> -->
 </head>
 
 <body>
@@ -48,8 +48,57 @@ if ( mysqli_connect_errno() ) {
 						<?php echo $row['Minority_groups'] . $row['Project_type'] . $row['Donating_type']; ?>
 					</p>
 				</div>
-				<button id="<?php echo $row['Wish_id']; ?>" class="wish__more-info details_button">More Info</button>
-				<div id="background-<?php echo $row['Wish_id']; ?>" class="modal-background">
+				<button type="button" class="wish__more-info details_button" data-bs-toggle="modal"
+					data-bs-target="#modal-<?php echo $row['Wish_id']; ?>">More Info</button>
+				<!-- Button trigger modal -->
+				<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+					Launch demo modal
+				</button> -->
+				<!-- Modal -->
+				<div class="modal fade" id="modal-<?php echo $row['Wish_id']; ?>" tabindex="-1"
+					aria-labelledby="<?php echo $row['Wish_id']; ?>ModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<div class="modal-content">
+									<div class="field">
+										<h4>Organization Name</h4>
+										<h5>
+											<?php echo $row['Organization_name']; ?>
+										</h5>
+									</div>
+									<div class="field">
+										<h4>District</h4>
+										<h5>
+											<?php echo $row['District']; ?>
+										</h5>
+									</div>
+									<div class="field">
+										<h4>Start date</h4>
+										<h5>
+											<?php echo $row['Start_date']; ?>
+										</h5>
+									</div>
+									<div class="field">
+										<h4>End date</h4>
+										<h5>
+											<?php echo $row['End_date']; ?>
+										</h5>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="background-<?php echo $row['Wish_id']; ?>" class="modal-background">
 					<div class="modal" style="width: 80%;">
 						<div class="modal-header">
 							<div class="modal-cancel close-<?php echo $row['Wish_id']; ?>" id="close"></div>
@@ -83,7 +132,7 @@ if ( mysqli_connect_errno() ) {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<?php
 				}

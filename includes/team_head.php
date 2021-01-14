@@ -25,7 +25,7 @@ $head_images_array = array(
 			<div class="head__subtitle">Head of <?php echo $head_images_array[ $row ][1]; ?>
 			</div>
 			<div class="head__img">
-				<img src="<?php echo '../images/team_head/' . $head_images_array[ $row ][2]; ?> " />
+				<img src="<?php echo 'images/team_head/' . $head_images_array[ $row ][2]; ?> " />
 			</div>
 		</div>
 		<?php
