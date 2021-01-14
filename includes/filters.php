@@ -134,7 +134,7 @@
           movieNameLength = movieName.length;
         for (var i = 0; i < k; i++) {
           var currentValue = inputName[i];
-          console.log([inputName, movieName, i]);
+          console.log([inputName, moveName, i]);
           if (currentValue === movieName[i]) {
             inputName.splice(i, 1);
             movieName.splice(i, 1);
